@@ -9,6 +9,7 @@ import (
 
 var ConversionTypeError error = errors.New("Conversion type error")
 
+//值类型，这里进行值类型的转换
 var (
 	_ Value = (*atomicValue)(nil)
 )

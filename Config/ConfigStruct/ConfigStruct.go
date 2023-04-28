@@ -10,9 +10,9 @@ type GravitationConfig struct {
 	CmdLine    string // 程序启动命令行信息
 }
 
-var GravitConfig GravitationConfig
+var gravitConfig GravitationConfig
 
 //return GravitationConfig is sigle
 func NewGravitationConfig() *GravitationConfig {
-	return &GravitConfig
+	return &gravitConfig
 }
